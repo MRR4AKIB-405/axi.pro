@@ -96,8 +96,7 @@ except:
 	kok.close()
 	print ("")
 
-        print ("")
-
+     
         print ("  Copy Key And Sent Me WhatsApp Approvel Your Key ")
 
         print ("༄MR᭄•───────────────────────────────────────•༄RAKIB᭄")
