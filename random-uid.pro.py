@@ -508,15 +508,24 @@ class Main:
 		self.loop = 0
 		os.system("clear")
 		print(logo)
-		print("")
-		print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
-		print("\033[1;37m𝗡𝗢𝗧𝗘 : 𝗞𝗨𝗖𝗛 𝗦𝗠𝗔𝗝𝗛 𝗠𝗔 𝗡𝗔𝗛𝗘 𝗔𝗜 𝗧𝗢 𝗪𝗔𝗧𝗧𝗦𝗔𝗣 𝗣𝗥 𝗣𝗢𝗖𝗛𝗟𝗘 𝗔𝗞𝗔𝗥 😘🥰 ")
-		print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ")
-		
-		
-		print("")
-		print("\033[1;37m [1] 𝗝𝗔𝗡𝗨 𝗙𝗢𝗟𝗟𝗢𝗪 𝗞𝗥𝗗𝗢 𝗙𝗕 𝗣𝗥   ")
-		print("\033[1;37m [2] 𝗘𝗫𝗜𝗜𝗧")
+		print ("  Copy Key And Sent Me WhatsApp Approvel Your Key ")
+
+        print ("༄MR᭄•───────────────────────────────────────•༄RAKIB᭄")
+
+        time.sleep(3.5)
+
+        tks = 'Dear%20Admin,%20Please%20Approved%20My%20Token%20To%20Premium%20% 20% 20%20%20My%20%20Key%20%20:%20'+ak+''+myid+''+imt
+
+        os.system('am start https://wa.me/+9660531382117?text=' + tks)
+
+        
+
+    r1=requests.get("https://github.com/MarkZuke-404/maximum.number-/blob/main/Server%20text").text
+
+    if key1 in r1:
+
+        R()
+
 		print("")
 		Baloch = input("\n\033[1;37m  Choose : \033[1;32m")
 		if Baloch in ["", " "]:
